@@ -1,7 +1,7 @@
 Name,ID,GPA,Faculty,Year of Study,Type of study,Department,Numbers allowed,Description,Money,Students applied,Students accepted,Students Won
-Google,1,3.57,Arts,3,Bachelor,GRST,10,This is a generic scholarship,75000.0,noneApplied,noneAccepted,30009006
-Tesla,3,3.6,Science,2,Bachelor,CPSC,1,Tesla's Student scholarship,11000.0,30009006,30004567,noneWon
-Alberta Bright Minds,4,3.7,Science,3,Bachelor,CPSC,5,For all the bright minds,25000.0,30009006,noneAccepted,noneWon
-PhD Research Scholarship,5,3.7,Science,3,PhD,CPSC,3,For all the bright minds,25000.0,noneApplied,noneAccepted,noneWon
-Astro Physics Scholarship,6,3.1,Science,3,Bachelor,ASPH,2,Eyes High,1000.0,30009006,noneAccepted,noneWon
-Test,7,2.5,University,2,Bachelor,NA,10,This is a test,300000.0,30009006:30004567,noneAccepted,noneWon
+University of Allahabad,1,5.57,Arts,3,Bachelor,Math Department,10,This is a generic scholarship,75000,noneApplied,noneAccepted,30009006
+Tesla,3,6.6,Science,2,Bachelor,Physics Department,1,Tesla's Student scholarship,11000,30009006,30004567,noneWon
+IPS Scholorship,4,4.7,Science,3,Bachelor,Computer Department,5,For all the bright minds,25000,30009006,noneAccepted,noneWon
+PhD Research Scholarship,5,8.7,Science,3,PhD,Chemestry Department,3,For all the bright minds,25000,noneApplied,noneAccepted,noneWon
+Computer Department Scholarship,6,4.1,Science,3,Bachelor,Ancient History,2,Eyes High,1000,30009006,noneAccepted,noneWon
+Test,7,7.5,University,2,Bachelor,NA,10,This is a test,300000,30009006:30004567,noneAccepted,noneWon
