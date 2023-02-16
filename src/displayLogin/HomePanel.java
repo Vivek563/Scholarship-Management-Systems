@@ -61,6 +61,11 @@ public class HomePanel extends MyPanel {
 		center.add(btnAbout, "cell 0 3, center");
 		btnAbout.addActionListener(packageListener);
 		btnAbout.setName("About_HomePanel");
+		
+		btnAbout = new MyButton("SignUp");
+		center.add(btnAbout, "cell 0 4, center");
+		btnAbout.addActionListener(packageListener);
+		btnAbout.setName("Registration");
 
 	}
 

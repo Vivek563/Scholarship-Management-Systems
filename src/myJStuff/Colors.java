@@ -5,12 +5,6 @@ import java.awt.Color;
 import java.awt.Image;
 import java.awt.Toolkit;
 
-public class Image{
-	Image img = new Image();
-	
-}
-
-
 
 public class Colors{
 	
@@ -22,8 +16,8 @@ public class Colors{
 	public static final Color grey		= Color.decode("#737373");
 	public static final Color GRADENT_COLOR	= Color.decode("#38CC77");
 	public static final Color defaultButtonTextColor 		= beige;
-	public static final Color defaultButtonBackgroundColor 	= darkGrey;
-	public static final Color defaultBackgroundColor 		= beige;
+	public static final Color defaultButtonBackgroundColor 	= Color.decode("#FF6666");
+	public static final Color defaultBackgroundColor 		= Color.decode("#FF6666");
 	public static final Color defaultBorderColor 			= beige;
 	public static final Color defaultTextColor				= darkGrey;
 

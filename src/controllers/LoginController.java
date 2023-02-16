@@ -18,9 +18,11 @@ public class LoginController extends MyController {
 	private AboutPanel ap;
 	private LoginAdminPanel lap;
 	private LoginStudentPanel lsp;
+	private registration reg;
 	
 	private JPanel panelHome;
 	private JPanel panelAbout;	
+	private JPanel panelRegistration;
 	private JPanel panelLoginAdmin;
 	private JPanel panelLoginStudent;
 	
@@ -33,6 +35,7 @@ public class LoginController extends MyController {
 	public void start(){
 		hp = new HomePanel(this);
 		ap = new AboutPanel(this);
+		reg = new registration(this);
 		lap = new LoginAdminPanel(this, globalListener);
 		lsp = new LoginStudentPanel(this, globalListener);
 		
@@ -40,6 +43,7 @@ public class LoginController extends MyController {
 		panelHome = hp.getContentPane();
 		panelAbout = ap.getContentPane();
 		panelLoginAdmin = lap.getContentPane();
+		panelRegistration = reg.getContentPane();
 		panelLoginStudent = lsp.getContentPane();
 					
 		switchPanel(panelHome);
@@ -75,6 +79,9 @@ public class LoginController extends MyController {
 			break;
 		case "About_HomePanel":
 			switchPanel(panelAbout); 
+			break;
+		case "Registration":
+			switchPanel(panelRegistration); 
 			break;
 		case "LoginStudent_HomePanel":
 			lsp.resetFields();

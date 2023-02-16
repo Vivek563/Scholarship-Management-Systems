@@ -64,16 +64,18 @@ public abstract class MyPanel {
 		contentPane.add(south, BorderLayout.SOUTH);
 		south.setLayout(new MigLayout("", "[][grow]", "[]"));
 		
-		 setBackgroundColor();
-		
+		setBackgroundColor(Colors.GRADENT_COLOR);
 	}
 	
 	
 
-	protected void setBackgroundColor(){
-		BackgroundImageFrame frame = new BackgroundImageFrame();
-		frame.setSize(800, 600);
-		frame.setVisible(true);
+	protected void setBackgroundColor(Color color){
+		north.setBackground(color.decode("#FED54A"));
+		south.setBackground(color);
+		east.setBackground(color);
+		west.setBackground(color);
+		center.setBackground(color);
+		contentPane.setBackground(color);
 	}
 	
 	protected void setTheme(){
