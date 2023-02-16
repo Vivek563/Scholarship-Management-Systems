@@ -2,6 +2,15 @@ package myJStuff;
 
 
 import java.awt.Color;
+import java.awt.Image;
+import java.awt.Toolkit;
+
+public class Image{
+	Image img = new Image();
+	
+}
+
+
 
 public class Colors{
 	
@@ -17,4 +26,7 @@ public class Colors{
 	public static final Color defaultBackgroundColor 		= beige;
 	public static final Color defaultBorderColor 			= beige;
 	public static final Color defaultTextColor				= darkGrey;
+
+	
 }
+
